@@ -1,0 +1,68 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    background-image: linear-gradient(to bottom right, rgba(125, 228, 228),hsl(0, 17%, 22%));
+    font-family: "yaldevi";
+}
+h1,
+h4
+{
+    color: rgb(113, 235, 113);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px 90px;
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+    font-size: 17px;
+    padding: 0px 0px 25px 0px;
+}
+.pic
+{
+    width: 150px;
+    height: 80px;
+    margin-bottom: 10px; 
+    display: block;
+    margin-left: 19.7%;
+    opacity: .5;
+    cursor: pointer;
+}
+.pic:hover
+{
+    opacity: 1;
+}
+.lone
+{
+    position: absolute;
+    float: right;
+    left: 40%; 
+    top: 26%;
+    height: 390px;
+    width: 500px;
+    transition: .5s;
+}
+.lone:hover
+{
+    transform: scale(1.2);
+    cursor: zoom-in;
+    transition: 1s;
+}
+#short
+{
+	margin-top: 40px;
+}
+main
+{
+    display: flex;
+    justify-content: center;
+}
